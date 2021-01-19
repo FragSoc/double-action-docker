@@ -1,17 +1,17 @@
-A docker image for running a dedicated server for the game [Fistful of Frags](https://store.steampowered.com/app/265630/Fistful_of_Frags/). This Dockerfile uses [CM2Walki's](https://github.com/CM2Walki/) SteamCMD base image.
+A docker image for running a dedicated server for the game [Double Action: Boogaloo](https://store.steampowered.com/app/317360/Double_Action_Boogaloo/). This Dockerfile uses [CM2Walki's](https://github.com/CM2Walki/) SteamCMD base image.
 
 # How to use this image
 ## Simple usage (recommended)
 
 Clone this repository locally:<br/>
 ```console
-$ git clone https://github.com/FragSoc/fistful-docker.git
+$ git clone https://github.com/FragSoc/double-action-docker.git
 ```
 
 Create a new directory for the game installation:
 ```console
-$ mkdir -p $(pwd)/fof-data
-$ chmod 777 $(pwd)/fof-data # Makes sure the directory is writeable by the unprivileged container user
+$ mkdir -p $(pwd)/dab-data
+$ chmod 777 $(pwd)/dab-data # Makes sure the directory is writeable by the unprivileged container user
 ```
 
 **Make necessary edits to the docker-compose.yml**

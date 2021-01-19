@@ -1,10 +1,10 @@
 version: "3"
    
 services:
-  fof:
+  dab:
     build: .
     volumes:
-      - ./fof-data/:/home/steam/fof-dedicated/
+      - ./dab-data/:/home/steam/dab-dedicated/
     network_mode: "host"
     environment: 
       - SRCDS_PORT=27015
